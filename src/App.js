@@ -1,11 +1,15 @@
-import './App.css';
+import React from "react";
+import Navbar from "./Components/Navbar/Navbar";
+import Hero from "./Components/Hero/Hero";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      My porfolio 1
+    <div>
+      <Navbar />
+      <Hero />
     </div>
   );
-}
+};
 
 export default App;
+
